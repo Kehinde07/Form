@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    margin-top:60px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 36.4%;
+    padding-top: 25px;  
+}
+
+.input-div input{  
+    width: 450px;  
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 12px;
+    font-weight: 400;
+}
+.fullname-div, .email-div{
+    color: rgb(85, 9, 156);
+    margin-bottom:  20px;
+}
+.password-div{
+    color: rgb(163, 159, 159);
+    margin-bottom: 20px;
+} 
+.card-div{
+    position: relative;
+}
+.card-div img{
+    height: auto;
+}
+.card-text{
+    position: absolute;
+    top: 25%;
+    color:white;
+    padding: 20px; 
+}
+#get-started{
+    padding-top: 1px;
+    height: 40px;
+    width: 450px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+#get-started:hover{
+    background-color: rgb(228, 182, 112);
+ }
+.form-group{
+    height: 50px;
+    width: 300px;
+}
+.last-div{
+    text-align: center;
+}
